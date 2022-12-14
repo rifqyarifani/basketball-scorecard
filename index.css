@@ -1,8 +1,56 @@
 body {
     margin: 0;
+    background: darkslategray;
+}
+h3, h4, button{
+    color: white;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center
+}
+
+.player{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.score{
+    font-size: 100px;
+    padding: 20px 40px;
+    background: black;
+    margin: 0px auto 40px;
+    font-family: "vt323"
+}
+
+
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 button {
+    border: 1px solid white;
+    padding: 6px 12px;
+    margin: 0px 5px;
+    font-size: 20px;
+    background: darkslategray;
+}
+
+.container-new-game{
+    display: flex;
+    justify-content: center;
+}
+
+
+#new-game{
+    background: brown;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    
 }
